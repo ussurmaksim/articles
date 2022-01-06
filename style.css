@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@media (min-width: 1400px){
+    .container.standart {
+        max-width: 1030px;
+    }
+}
+.breadcrumb {
+    background-color: #fff;
+    padding: 12px 0px;
+}
+.breadcrumb-item a{
+    color: #989898;
+}
+.heading h1{
+    font-size: 36px;
+    font-family: "Open Sans", serif, sans-serif;
+    font-weight: 600;
+}
+.heading{
+    padding-top: 53px;
+
+}
+.inline-flex{
+    display: inline-flex;
+}
+.container.section{
+    padding: 50px 0;
+
+}
+.img-articles{
+    width: 300px;
+    height: 380px;
+
+}
+.size-text .date{
+    font-size: 13px;
+    font-weight: 600px;
+    color: #C4C4C4;
+    margin-bottom: 0;
+}
+.size-text h2{
+    font-size: 24px;
+    color: #000;
+}
+.size-text img.img-sizes{
+    margin-top: 50px;
+}
+.future-technologies-img{
+    margin-top: 50px;
+    padding: 15px;
+}
+.future-technologies-img.img-small{
+    width: 161px;
+    height: 204px;
+}
+.future-technologies-img.img-big{
+    width: 272px;
+    height: 204px;
+}
+@media screen and (min-width:991px) and (max-width:1199px){
+    .future-technologies-img{
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .future-technologies-img.img-small{
+        width: 150px;
+        height: 180px;
+    }
+    .future-technologies-img.img-big{
+        width: 260px;
+        height: 180px;
+    }
+}
+@media screen and (max-width:991px){
+    .future-technologies-img{
+        padding: 0px;
+        margin-top: 50px;
+    }
+    .future-technologies-img.img-small{
+        width: 90px;
+        height: 130px;
+    }
+    .future-technologies-img.img-big{
+        width: 190px;
+        height: 130px;
+    }
+}
+@media screen and(min-width:767px) {
+    .evenly{
+        display:flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 314px) {
+    .future-technologies-img.img-articles{
+        width: 200px;
+        height: auto;
+    }
+    .future-technologies-img.img-sizes{
+        width: 215px;
+        height: auto;  
+    }
+}
+@media screen and (max-width:339px){
+    .future-technologies-img{
+        padding: 0px;
+        margin-top: 50px;
+    }
+    .future-technologies-img.img-small{
+        width: 70px;
+        height: 110px;
+    }
+    .future-technologies-img.img-big{
+        width: 160px;
+        height: 110px;
+    }
+}
